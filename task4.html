@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="task4.php" method="post">
+        <lebel for="username">Username:</lebel>
+        <input type="text" id="username" required placeholder="Enter username"><br>
+        <lebel for="email">Email:</lebel>
+        <input type="email" id="email" required placeholder="Enter email"><br>
+        <lebel for="password">Password:</lebel>
+        <input type="password" required placeholder="Enter password"><br>
+        <lebel for="title"></lebel>
+        <input type="radio" name="title">
+        <lebel for="Mr">Mr.</lebel>
+        <input type="radio" name="title">
+        <lebel for="Mrs">Mrs.</lebel>
+        <input type="radio" name="title">
+        <lebel for="Dr">Dr.</lebel><br>
+        Select your educational qualification:<br>
+        <input type="checkbox" id="ssc" name="education">
+        <label for="ssc">SSC</label>
+        <select>
+            <option>2022</option>
+            <option>2023</option>
+        </select><br>
+        <input type="checkbox" id="hsc" name="education">
+        <label for="hsc">HSC</label>
+        <select>
+            <option>2024</option>
+            <option>2025</option>
+        </select><br>
+        <lebel for="picture">Submit your picture:</lebel>
+        <input type="file" id="picture" accept="image/png, image/jpeg"><br>
+
+        <lebel for="complain">Complain box:</lebel>
+        <textarea id="complain" cols="30" rows="3"></textarea>
+
+        <br><input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
